@@ -1,0 +1,83 @@
+Project 2 Grazioso Salvare README
+
+About the Grazioso Salvare Project
+The purpose for the Grazioso Salvare Project, is to be able to have a user-friendly Dashboard that allows a user to access the data from the Animal shelter database and allows the user to find the best candidates to train and use in their rescue program. In this case the user will be able to access the data from the animal shelters. This will be presented to the Grazioso Salvare staff in an easy to read and use application dashboard that allows the user to filter searches. This helps to find the best animals that fit the requirements for animals used for rescues.
+
+Motivation
+The motivation behind this project was to bridge the gap between the animal shelters, that are always looking for homes and purpose for the animals that make it into their shelters and the Grazioso Salvare company that is always looking for the right animal candidates to train and be a part of their rescue team.  
+By creating this dashboard, we provide the connection between companies, allowing them to work together in making an effort to clear out shelters, while helping Grazioso Salvare find the best animals to assist in their search and rescue efforts. 
+
+Getting Started
+•	To begin, the first thing you will need to do is authenticate yourself to be sure you have access to the dataset being used. 
+•	Then once authenticated and connected to the database, you are then able to use our CRUD Python module for queries as part of the interaction between the database and the dashboard.
+•	Then the filters are read and the results that fit the filter will be displayed on the dashboard.
+•	How they are displayed will depend on the methods used in your ipynb file. How this is set up will dictate how the data will be visualized once in the dashboard app
+
+Installation
+The first tool needed would the mongo database. Mongo is used because it is a powerful way to store and retrieve data quickly. Mongo has been known to be able to support large amounts of data smooth and quickly. Along with having the capabilities to support query language. While using Python because its flexible language style, with mongo dB we can create different database applications fast and efficiently.  
+We also used a dash framework to build the dashboard application.  By using Dash Html components along with dash core components, we are able to generate graphs that will retrieve the data given and display it. We also use dash dependencies to allow the app to allow it to accept input and output.
+With that you can then upload the data from the shelters to be used on your end. By using our CRUD.py file we can work with the data from the shelters. The CRUD.py and ipynp file are created using Jupyter notebook. We use our projecttwodashboard.ipynp file to test and run the dashboard. Within this file we dictate how the dashboard will look. Once we instantiate the CRUD object, we can access the data. Then the data is read to populate the data table created. In this table radio buttons are used to pick the options provided to filter results. Once the table is populated, we are able to display the data in different ways such as charts and maps(visuals will be provided in next section.)
+
+Usage
+Use this space to show useful examples of how your project works and how it can be used. Be sure to include examples of your code, tests, and screenshots.
+
+Code Example
+•	Authentication
+ 
+
+•	CRUD function
+	 
+	 
+Show what the library does as concisely as possible. Developers should be able to figure out how your project solves their problem by looking at the code example. Make sure that your code is short and concise.
+
+Tests
+To run the tests, you simply press the run button at the top of the Jupyter Notebook screen. Below are the images of the ipynp file.
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+Resulting dashboard when ran/executed (cannot tell in screenshots but options change on pie charts when hovering or clinking on sections)
+
+“water rescue”
+ 
+
+ 
+
+ 
+
+
+Mountain Rescue
+ 
+ 
+
+Disaster Rescue
+ 
+ 
+
+Elderly (15+)
+ 
+ 
+
+Reset
+ 
+ 
+
+
+
+Roadmap/Features (Optional)
+One issue I ran into was getting the map to function properly from project one to two.
+
+Contact
+Your name: Xavier Sepulveda
